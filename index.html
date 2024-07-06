@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-box">
+        <div class="left">
+            <aside>
+                <div class="product-container">
+                    <div class="big-img" >
+                        <img src="img/product.png" id="main-image">
+                    </div>
+                </div>
+                <div class="images">
+                    <div class="small-img">
+                        <img src="img/product.png" onclick="changeImage('img/product.png')">
+                    </div>
+                    <div class="small-img">
+                        <img src="img/product-1.png" onclick="changeImage('img/product-1.png')">
+                    </div>
+                    <div class="small-img">
+                        <img src="img/product-2.png" onclick="changeImage('img/product-2.png')">
+                    </div>
+                    <div class="small-img">
+                        <img src="img/product-3.png" onclick="changeImage('img/product-3.png')">
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <div class="right">
+            <h1 style="margin-bottom:20px">Girl's T-Shirt</h1>
+            <div class="ratings">
+               <img src="img/star-1.png" width="25px">
+               <img src="img/star-1.png" width="25px">
+               <img src="img/star-1.png" width="25px">
+               <img src="img/star-1.png" width="25px">
+               <img src="img/star-1.png" width="25px">
+            </div>
+            <div class="price">$200</div>
+            <div class="size">
+                <p>Size :</p>
+                <div class="psize active">M</div>
+                <div class="psize">L</div>
+                <div class="psize">XL</div>
+                <div class="psize">XXL</div>
+            </div>
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number" min="1" max="5" value="1">
+            </div>
+            <div class="btn-box">
+                <button class="cart-btn">Add to Cart</button>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function changeImage(imageSrc) {
+            const mainimage=document.getElementById('main-image');
+            mainimage.src=imageSrc;
+
+        }
+    </script>
+</body>
+</html>
