@@ -26,7 +26,6 @@
 }
 .product-container:hover{
     box-shadow:0 4px 30px rgb(240, 2, 212);
-    cursor: pointer;
 }
 .big-img{
     width: 250px;
