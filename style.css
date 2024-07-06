@@ -18,7 +18,7 @@
 .product-container{
     background: rgba(237, 234, 234, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ff008c;
+    border: 1px solid black;
     width: 300px;
     padding:30px;
     margin-left: 100px;
