@@ -23,6 +23,7 @@
     padding:30px;
     margin-left: 100px;
     margin-bottom: 30px;
+    border-radius: 5px;
 }
 .product-container:hover{
     box-shadow:0 4px 30px rgb(240, 2, 212);
@@ -44,6 +45,7 @@
     overflow: hidden;
     margin-left: 20px;
     border: 1.5px solid black;
+    border-radius: 5px;
 }
 .small-img:hover{
 
